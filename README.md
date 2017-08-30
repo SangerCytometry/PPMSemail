@@ -7,6 +7,7 @@ Python script to email the last user of the day if they are operating outside of
 2: Create a batch file that downloads the booking data
 
 3: Change:
+
         line 23, the directory of the .py
         
         line 26, the name of the booking file
