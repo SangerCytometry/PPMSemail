@@ -20,7 +20,7 @@ from email.MIMEText import MIMEText
 import os
 
 #set 'working directory' to help windows task scheduler.  This is where the script is saved
-os.chdir('C:/Users/Operator/Desktop/autoEmail')
+os.chdir('C:/Users/Operator/Desktop')
 
 #Prepare file, asertain todays date and choose out of office time.  (We close at 30 mins earlier on Friday(4))
 csvfile=("outputfile.csv")
