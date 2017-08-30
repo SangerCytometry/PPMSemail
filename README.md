@@ -3,16 +3,26 @@ Python script to email the last user of the day if they are operating outside of
 
 ## Instructions
 1: Download the user list from 'Grous/Users' in PPMS
+
 2: Create a batch file that downloads the booking data
+
 3: Change:
         line 23, the directory of the .py
+        
         line 26, the name of the booking file
+        
         line 29-32, choose your 'out of office' times
+        
         line 47, list the instruments that you want to set up the email for
+        
         line 52, adjust the message to suit
+        
         line 54 & 56, your email address(es)
+        
         line 66, your email provider and their port number
+        
         line 68, your email password
+        
 4: Use task scheduler, or equivalent, to automate 2 and 3
 
 ## Notes
