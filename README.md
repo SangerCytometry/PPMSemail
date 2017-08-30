@@ -30,7 +30,7 @@ We use cURL to download the booking information from a custom PPMS report (conta
 
   curl -k -d "action=Report19&startDate=2017-08-01&endDate=2018-08-01&dateformat=print&outformat=csv&apikey=xxx&coreid=1" "https://ppms.eu/yoursite/API2/" > C:\Users\Operator\Desktop\outputfile.csv
 
-I'll probably include this step in the python script in the future and just download todays bookings (similar to PPMS2CSV).
+I'll probably include this step in the python script in the future and just download todays bookings (similar to [PPMS2HTML](https://github.com/SangerCytometry/PPMS-to-HTML-table)).
 
 To run the file in Windows through task scheduler; create a batch file containing something along the lines of:
 
