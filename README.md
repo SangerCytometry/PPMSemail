@@ -27,9 +27,11 @@ Python script to email the last user of the day if they are operating outside of
 
 ## Notes
 We use cURL to download the booking information from a custom PPMS report (contact Startocore for information).
+
   curl -k -d "action=Report19&startDate=2017-08-01&endDate=2018-08-01&dateformat=print&outformat=csv&apikey=xxx&coreid=1" "https://ppms.eu/yoursite/API2/" > C:\Users\Operator\Desktop\outputfile.csv
 
 I'll probably include this step in the python script in the future and just download todays bookings (similar to PPMS2CSV).
 
 To run the file in Windows through task scheduler; create a batch file containing something along the lines of:
+
   c:\Python27\python.exe C:\Users\Operator\Desktop\PPMSemail.py
