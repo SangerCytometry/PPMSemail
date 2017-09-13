@@ -2,7 +2,7 @@
 Python script to email the last user of the day if they are operating outside office hours using data from PPMS (www.stratocore.com)
 
 ## Instructions
-1: Download the user list from 'Grous/Users' in PPMS
+1: Download the user list from 'Group/Users' in PPMS
 
 2: Create a batch file that downloads the booking data
 
@@ -27,7 +27,7 @@ Python script to email the last user of the day if they are operating outside of
 4: Use task scheduler, or equivalent, to automate 2 and 3
 
 ## Notes
-We use cURL to download the booking information from a custom PPMS report (contact Startocore for information).
+We use cURL to download the booking information from a custom PPMS report (contact Stratocore for information).
 
   curl -k -d "action=Report19&startDate=2017-08-01&endDate=2018-08-01&dateformat=print&outformat=csv&apikey=xxx&coreid=1" "https://ppms.eu/yoursite/API2/" > C:\Users\Operator\Desktop\outputfile.csv
 
