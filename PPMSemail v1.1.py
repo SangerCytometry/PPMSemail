@@ -62,4 +62,4 @@ for index, row in dk.iterrows():
         server.login(fromaddr, "") #put your email password here
         text = msg.as_string()
         server.sendmail(fromaddr, [toaddr,cc], text)
-        server.quit()
+server.quit()
