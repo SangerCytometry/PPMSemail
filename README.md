@@ -1,3 +1,5 @@
+This page has been archived and further updates will be on Christopher’s [GitHub page]( https://github.com/hally166/PPMSemail).
+
 # PPMSemail
 Python script to email the last user of the day if they are operating outside office hours using data from PPMS (www.stratocore.com)
 
